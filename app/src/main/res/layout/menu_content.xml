@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/menu_background"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_volume_up_black_24dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/volumeOn"
+        android:layout_margin="12dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_volume_off_black_24dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/volumeOff"
+        android:visibility="gone"
+        android:layout_margin="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+            android:layout_marginLeft="24dp"
+            android:fontFamily="@font/helvetica_thin"
+            android:textSize="20dp"
+            android:layout_marginRight="24dp"
+        android:textAllCaps="false"
+        android:text="Start game"
+            android:id="@+id/startGameButton"
+        android:background="@drawable/ship_button_border"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textAllCaps="false"
+            android:text="Exit"
+            android:id="@+id/exitGameButton"
+            android:fontFamily="@font/helvetica_thin"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/ship_button_border2"/>
+    </LinearLayout>
+</RelativeLayout>

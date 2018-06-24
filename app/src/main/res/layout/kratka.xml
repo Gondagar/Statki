@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:id="@+id/kratkaImg"
+            android:src="@drawable/kratka_woda"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/literaTxt"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:id="@+id/kratkaWrogaImg"
+            android:src="@drawable/kratka_woda_wrog"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:id="@+id/korablyk1Img"
+            android:src="@drawable/korablyk_1"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:id="@+id/popawImg"
+            android:src="@drawable/fire"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:id="@+id/niePopawImg"
+            android:src="@drawable/mimo"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</LinearLayout>
